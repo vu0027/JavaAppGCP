@@ -19,7 +19,7 @@
   <version>1.0</version>
 
   <groupId>com.google.appengine.demos</groupId>
-  <artifactId>appengine-try-java</artifactId>
+  <artifactId>JavaAppGCP</artifactId>
 
   <!-- Parent POM defines common plugins and properties. -->
   <parent>
