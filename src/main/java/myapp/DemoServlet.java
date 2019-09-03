@@ -29,8 +29,8 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().println("{ \"name\": \"World\" }");
-    // create instance of Random class 
+    resp.getWriter().println("{ 
+                             
         Random rand = new Random(); 
         List<Integer> list = new ArrayList<Integer>();
 
@@ -43,5 +43,12 @@ public class DemoServlet extends HttpServlet {
         	System.out.println(rand_int1); 
           out.println(rand_int1);
         }
+                             
+                             
+                             
+                             }");
+    resp.
+    // create instance of Random class 
+        
   }
 }
