@@ -29,26 +29,8 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().println("{ 
-                             
-        Random rand = new Random(); 
-        List<Integer> list = new ArrayList<Integer>();
+    resp.getWriter().println("Hello ");
 
-        // Generate random integers in range 0 to 999 
-        int rand_int1 = 0;
-        for(int i = 0; i < 1000; i++) {
-        // Print random integers 
-            rand_int1 = rand.nextInt(1000000000); 
-            list.add(rand_int1);
-        	System.out.println(rand_int1); 
-          out.println(rand_int1);
-        }
-                             
-                             
-                             
-                             }");
-    resp.
-    // create instance of Random class 
         
   }
 }
